@@ -1,9 +1,10 @@
-﻿const http = require("http");
+const http = require("http");
 const fs = require("fs");
 const path = require("path");
 
 const port = process.env.PORT || 3000;
-const frontendDir = path.join(__dirname, "..", "frontend");
+const frontendFolder = path.join(__dirname, "..", "frontend");
+const frontendDir = fs.existsSync(frontendFolder) ? frontendFolder : __dirname;
 
 let requests = [
   { id: 1, title: "Can someone explain React hooks?", category: "Programming", description: "I understand components but useEffect still confuses me.", author: "Aarav M." }
