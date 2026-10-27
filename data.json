@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ananya Mehta",
+      "email": "demo@peerlift.local",
+      "password": "demo123",
+      "course": "Computer Science",
+      "skills": "Python, Figma",
+      "goals": "React, Statistics"
+    },
+    {
+      "id": 2,
+      "name": "Rohan Das",
+      "email": "rohan@peerlift.local",
+      "password": "rohan123",
+      "course": "Computer Science",
+      "skills": "React, JavaScript",
+      "goals": "UI design"
+    },
+    {
+      "id": 3,
+      "name": "Nisha Shah",
+      "email": "nisha@peerlift.local",
+      "password": "nisha123",
+      "course": "Visual Design",
+      "skills": "Figma, UI/UX",
+      "goals": "JavaScript"
+    },
+    {
+      "id": 4,
+      "name": "Kabir Rao",
+      "email": "kabir@peerlift.local",
+      "password": "kabir123",
+      "course": "Mathematics",
+      "skills": "Statistics, Excel",
+      "goals": "Python"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "title": "Can someone explain React hooks?",
+      "category": "Programming",
+      "description": "I understand components but useEffect still confuses me.",
+      "author": "Aarav M."
+    }
+  ],
+  "offers": [],
+  "messages": [
+    {
+      "id": 1,
+      "from": "Rohan Das",
+      "to": "Ananya Mehta",
+      "text": "Hi! I can help with React hooks."
+    }
+  ]
+}
